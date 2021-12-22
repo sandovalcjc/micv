@@ -1,11 +1,3 @@
-/* body {
-
-    font: 12px;
-
-
-    background-color: #ffffff;
-
-    } */
 
 li{
 
@@ -17,13 +9,16 @@ li{
 h1{
 
     color:Blue;
-    background-color:#dee8fa;
+    /* background-color:#dee8fa; */
+    background: rgb(233,233,250);
+    background: linear-gradient(90deg, rgba(233,233,250,1) 41%, rgba(149,178,232,1) 46%);
     text-align:left;
     width:1000px;
     height: 50px;
     margin-bottom: 50px;
     padding:20px;
     border-radius: 50px 50px 0 0;
+    box-shadow: 15px 10px 10px black;
     font-family:'Courier New', Courier, monospace;
 
 }
@@ -90,7 +85,8 @@ img {
         background-color:#dee8fa;
       }
 .boton{
-    align-items: center;
+    margin: 0 auto;
+    text-align: center;
 }
 .icono{
     font-size:50px;
